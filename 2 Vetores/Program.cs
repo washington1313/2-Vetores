@@ -12,14 +12,12 @@ namespace _2_Vetores
         static void Main(string[] args)
         {
             int[] numerosPares = new int[10];
-            int[] numerosImpares = new int[10];
-
-            int numero;
+            int[] numerosImpares = new int[10];                    
 
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine("Digite o Número:");
-                numero = int.Parse(Console.ReadLine());
+                int numero = int.Parse(Console.ReadLine());
                 Console.Clear();
 
                 if (numero % 2 == 0)
