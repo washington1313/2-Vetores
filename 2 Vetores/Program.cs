@@ -26,8 +26,7 @@ namespace _2_Vetores
                 {
                     numerosPares[i] = numero;
                 }
-
-                else if (numero % 2 == 1)
+                else
                 {
                     numerosImpares[i] = numero;
                 }
@@ -43,10 +42,8 @@ namespace _2_Vetores
             for (int i = 0; i < 10; i++) 
             {
                 Console.WriteLine(numerosImpares[i]);
-            }
-            
+            }            
             Console.ReadKey();
-
         }
     }
 }
